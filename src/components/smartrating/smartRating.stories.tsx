@@ -4,6 +4,10 @@ import SmartRating from "./SmartRating";
 export default {
   title: "ReactComponentLibrary/Rating",
   component: SmartRating,
+  parameters: {
+    layout: "centered",
+  },
+  tags: ["autodocs"],
 } as Meta<typeof SmartRating>;
 
 const Template: StoryFn<typeof SmartRating> = (args) => <SmartRating {...args} />;
