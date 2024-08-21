@@ -38,5 +38,8 @@
   },
   "peerDependencies": {
     "react": "^18.3.1"
+  },
+  "dependencies": {
+    "vite": "^5.4.2"
   }
 }

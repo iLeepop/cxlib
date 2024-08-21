@@ -1,0 +1,16 @@
+.wave-button {
+    margin: 0;
+    padding: 10px 20px;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    height: max-content;
+    color: black;
+    background-color: transparent;
+
+    border-radius: 8px;
+    border: 1px solid black;
+}
